@@ -17,6 +17,9 @@ class ViewController: UIViewController {
         SycRequest.shared.shouldLog = true
         SycRequest.shared.get(urlStr: "http://www.baidu.com/s?ie=UTF-8&wd=urlsession", param: nil) { (result) in
             // result is any
+            DispatchQueue.main.async(execute: {
+                // update ui
+            })
         }
     }
 
