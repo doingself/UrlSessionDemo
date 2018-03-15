@@ -36,3 +36,8 @@ dataTask.resume()
 ```
 
 含 https 证书请求 demo, 参考 [hangge](http://www.hangge.com/blog/cache/detail_991.html)
+
+# Requirements
++ Swift 4
++ iOS 10+
++ Xcode 9+
